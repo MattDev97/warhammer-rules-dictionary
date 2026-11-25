@@ -30,3 +30,7 @@ Edit `data/rules.json`, then run `node scripts/build-data.mjs` to regenerate the
 ## Sources
 
 The existing dictionary content is retained, with rule references to the June 2026 Core Rules and Wahapedia. This packaging update does not re-verify rules. See the app for source links. Unofficial fan project, not affiliated with Games Workshop. Warhammer and related names belong to their respective owners. No official artwork or rulebook PDF is included.
+
+## Battle companion
+
+Open `battle.html` or use the main navigation. Includes the uploaded Dark Angels phase guide, CP and round tracking, unit filters, doctrine tracking and persistent checklists. No build step. Rules content is retained from the supplied companion and has not been independently revalidated in this design update.
