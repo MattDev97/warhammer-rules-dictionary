@@ -138,7 +138,7 @@
       "id": "deadly-demise-x",
       "name": "Deadly Demise X",
       "cat": "Weapons",
-      "definition": "When its model is destroyed, after passengers emergency-disembark, roll a D6. On a 6, every unit within 6 inches suffers X mortal wounds.",
+      "definition": "When its model is destroyed, after passengers emergency-disembark, roll D6. On a 6, each unit within 6 inches (friend or foe) suffers X mortal wounds. Roll separately for each affected unit if X is random.",
       "example": "A destroyed transport with Deadly Demise D3 can explode and harm nearby units.",
       "section": "24.08",
       "page": 80,
@@ -324,7 +324,7 @@
       "page": 82,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Automatic wounding is optional. Snap shooting hits are not critical hits and cannot trigger Lethal Hits."
     },
     {
       "id": "lone-operative",
@@ -384,7 +384,7 @@
       "page": 84,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Core §24.28.01: Mortal wounds from an attack with both Precision and Devastating Wounds go to the selected Character allocation group first, if it survives."
     },
     {
       "id": "psychic-weapon",
@@ -432,7 +432,7 @@
       "page": 85,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Core §19.04: Unit-wide Stealth extends to attached models while the source survives; e.g. Inner Circle Companions grant it to attached Azrael."
     },
     {
       "id": "support",
@@ -468,7 +468,7 @@
       "page": 85,
       "source": "core",
       "aliases": "sustained hits sustained 1 sustained 2",
-      "note": ""
+      "note": "Snap shooting hits are not critical hits. Multiple Sustained Hits instances do not stack."
     },
     {
       "id": "torrent",
@@ -1267,7 +1267,7 @@
       "name": "Snap Shooting",
       "cat": "Shooting",
       "definition": "A reactive shooting type: targets only one visible eligible unit within 24 inches; hits only on an unmodified 6; no hit re-rolls. Wahapedia clarifies those hits are not critical hits.",
-      "example": "Fire Overwatch uses Snap Shooting, so Sustained Hits usually will not trigger from its hits.",
+      "example": "Overwatch hits on natural 6s, but they are not critical hits: Sustained Hits and Lethal Hits do not trigger. Devastating Wounds may still trigger on wound rolls.",
       "section": "15.09",
       "page": 57,
       "source": "core",
@@ -2040,7 +2040,7 @@
       "page": 54,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Normally only one use of each stratagem per phase per player, and only one stratagem targeting a given unit per phase. Battle-shocked units cannot be targeted unless a specific exception applies."
     },
     {
       "id": "command-re-roll",
@@ -2052,7 +2052,7 @@
       "page": 56,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "A die cannot be re-rolled twice. Snap shooting prohibits hit re-rolls, including this stratagem."
     },
     {
       "id": "epic-challenge",
@@ -2076,7 +2076,7 @@
       "page": 56,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "FAQ: Cannot target an already battle-shocked unit, even when it is about to roll again."
     },
     {
       "id": "explosives-stratagem",
@@ -2094,7 +2094,7 @@
       "id": "crushing-impact",
       "name": "Crushing Impact",
       "cat": "Stratagems",
-      "definition": "Core 1CP after a Monster/Vehicle charges. Roll a number of dice equal to one engaged model’s T; each 1 wounds your own unit, each 5+ inflicts a mortal wound on the enemy (max six).",
+      "definition": "Core 1CP after a Monster/Vehicle charges. Roll dice equal to one engaged friendly model’s T; each 1 inflicts one mortal wound on your unit and each 5+ inflicts one on the selected engaged enemy. Maximum six mortal wounds per unit, separately.",
       "example": "A Dreadnought can deal impact mortals when charging, risking self-damage.",
       "section": "15.06",
       "page": 56,
@@ -2124,7 +2124,7 @@
       "page": 57,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Snap shooting hits are not critical hits; no hit re-rolls. Normal weapon range and target restrictions still apply."
     },
     {
       "id": "smokescreen",
@@ -2220,7 +2220,7 @@
       "page": 68,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Normally, units still in reserves at the end of battle round 3 are destroyed, subject to exceptions."
     },
     {
       "id": "ingress-move",
@@ -2232,7 +2232,7 @@
       "page": 69,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "After ingress, no further move until the next Charge phase, subject to explicit exceptions."
     },
     {
       "id": "reserves-timing",
@@ -2352,7 +2352,7 @@
       "page": 66,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Core §19.04: Unit-wide abilities extend to the attached unit while the source survives; model-specific abilities remain model-specific."
     },
     {
       "id": "bodyguard-unit",
@@ -2424,7 +2424,7 @@
       "page": 71,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Declare taking to the skies before rolling Advance or Charge dice."
     },
     {
       "id": "taking-to-the-skies",
@@ -2436,7 +2436,7 @@
       "page": 71,
       "source": "core",
       "aliases": "",
-      "note": ""
+      "note": "Declare this choice before rolling Advance or Charge dice."
     },
     {
       "id": "surge-move",
@@ -2910,7 +2910,7 @@
       "id": "overwatch-and-critical-hits",
       "name": "Overwatch and Critical Hits",
       "cat": "Appendix",
-      "definition": "Wahapedia’s 11th-edition Snap Shooting clarification says the required unmodified-6 hits are not critical hits; critical-triggered effects cannot be assumed to activate.",
+      "definition": "Snap Shooting hits are not critical hits. Sustained Hits and Lethal Hits cannot trigger from them. Critical wound effects can still apply.",
       "example": "Sustained Hits on an Overwatch gun does not trigger from its ordinary Snap Shooting sixes.",
       "section": "15.09",
       "page": null,
